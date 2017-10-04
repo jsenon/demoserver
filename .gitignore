@@ -1,0 +1,5 @@
+/bin
+/pkg
+source-env
+/src/github.com
+/src/gopkg.in
