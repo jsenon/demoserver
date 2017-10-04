@@ -1,6 +1,6 @@
 # demoserver
 
-This is a demo server which print it's version and it's IP on HTTP Server
+This is a demo server which print it's version and it's IP on HTTP Server and provide API
 
 ## Build
 
@@ -31,4 +31,5 @@ Server HTTP in container serve on port 9010
 
 - Print IP
 - Print Version
+- An API is available for healthy /healthy/am-i-up and /healthy/about
 
