@@ -10,6 +10,8 @@ Change version print in web/web/go `hello, Im Service version 1.X`
 go build src/demoserver.go
 ```
 
+Check name of your binairies against name used in dockerfile
+
 
 ### Create Container
 

@@ -31,8 +31,8 @@ func Index(res http.ResponseWriter, req *http.Request) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(ip)
-	io.WriteString(res, "hello, Im Service version 1.2 \n"+"My IP is: "+ip+"\n")
+	// fmt.Println(ip)
+	io.WriteString(res, "hello, Im Service version 1.2\n"+"My IP is: "+ip+"\n")
 
 }
 
