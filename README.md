@@ -33,3 +33,12 @@ Server HTTP in container serve on port 9010
 - Print Version
 - An API is available for healthy /healthy/am-i-up and /healthy/about
 
+
+### TIPS
+
+If you receive `cannot execute binary file: Exec format error`
+
+Compile with  `CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build src/demoserver.go`
+
+And build `docker build -t jsenon/demoserver:1.3 .`
+
