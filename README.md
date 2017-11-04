@@ -16,13 +16,13 @@ Check name of your binairies against name used in dockerfile
 ### Create Container
 
 ```
-docker build -t jsenon/demoserver:1.X .
+docker build -t jsenon/mydemoserver:vX.X .
 ```
 
 ### Launch Container
 
 ```
-docker run -d -p 80:9010 jsenon/demoserver:1.X
+docker run -d -p 80:9010 jsenon/mydemoserver:vX.X
 ```
 
 Server HTTP in container serve on port 9010
@@ -40,5 +40,5 @@ If you receive `cannot execute binary file: Exec format error`
 
 Compile with  `CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build src/demoserver.go`
 
-And build `docker build -t jsenon/demoserver:1.3 .`
+And build `docker build -t jsenon/demoserver:v1.3 .`
 
